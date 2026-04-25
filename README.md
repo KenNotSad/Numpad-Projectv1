@@ -1,2 +1,6 @@
 # Numpad-Projectv1
-Custom Numpad
+
+Designing a custom numpad from scratch:
+- PCB design (KiCad)
+- CAD (SolidWorks)
+- Firmware (QMK)
