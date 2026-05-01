@@ -1,4 +1,4 @@
 # TODO
-- [ ] Design Schematics
+- [ x ] Design Schematics
 - [ ] Design PCB
     - [ ] Rotary Knob?
