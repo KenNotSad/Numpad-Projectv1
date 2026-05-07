@@ -1410,6 +1410,271 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "ScottoKeebs:Placeholder_Mounting_Hole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace yes)
+				(effects
+					(font
+						(size 1 1)
+						(thickness 0.2)
+						(bold yes)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Placeholder_Mounting_Hole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "ScottoKeebs:Placeholder_Switch"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Switch"
+				(at 0 -1.524 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Placeholder_Switch_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 139.7 113.03)
@@ -1422,6 +1687,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1ad55729-9080-4707-ba6a-32d8c353fb33")
+	)
+	(junction
+		(at 149.86 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20343735-12bd-4d3a-882b-9fbb1a6d7970")
 	)
 	(junction
 		(at 129.54 99.06)
@@ -1466,16 +1737,16 @@
 		(uuid "4947a308-176b-4a86-bd79-4a1dae1bf528")
 	)
 	(junction
-		(at 144.78 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "67d87f34-b8e3-4e58-af2e-a866c192d20f")
-	)
-	(junction
 		(at 129.54 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "71782e21-1d21-46ae-9d63-62297c2bba5b")
+	)
+	(junction
+		(at 144.78 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f8e9566-3167-4ac8-9087-152b2208bdc2")
 	)
 	(junction
 		(at 139.7 57.15)
@@ -1502,6 +1773,12 @@
 		(uuid "b7165ee1-eadc-45a5-84ce-2df640ca39ee")
 	)
 	(junction
+		(at 149.86 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc660e9b-62ac-408b-9b9d-6f922cfaafc5")
+	)
+	(junction
 		(at 139.7 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1514,12 +1791,6 @@
 		(uuid "cd9db934-970e-430b-b510-14c472fc7e25")
 	)
 	(junction
-		(at 149.86 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d047ae76-c59b-4eb6-bc7a-6bf72f8be23b")
-	)
-	(junction
 		(at 124.46 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1530,12 +1801,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d42dd5a7-b537-4213-96e0-08f4f4842d46")
-	)
-	(junction
-		(at 149.86 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d69e7ab1-f9ef-4b95-a98d-311ac34691e4")
 	)
 	(junction
 		(at 144.78 46.99)
@@ -1573,7 +1838,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 113.03) (xy 153.67 113.03)
+			(xy 139.7 113.03) (xy 149.86 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1590,6 +1855,16 @@
 			(type default)
 		)
 		(uuid "0c9c34fb-d8fd-414c-84c3-b166b5952296")
+	)
+	(wire
+		(pts
+			(xy 149.86 85.09) (xy 153.67 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f1971d8-fb09-4810-9661-ab2c8b67bb3a")
 	)
 	(wire
 		(pts
@@ -1613,7 +1888,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 71.12) (xy 153.67 71.12)
+			(xy 139.7 71.12) (xy 153.67 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1693,6 +1968,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 74.93) (xy 144.78 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42a0b598-25c6-4a64-9713-eee7dc560a4c")
+	)
+	(wire
+		(pts
 			(xy 40.64 97.79) (xy 45.72 97.79)
 		)
 		(stroke
@@ -1720,16 +2005,6 @@
 			(type default)
 		)
 		(uuid "4d5daec4-6837-4534-bbf0-8a0f1d2f8d6c")
-	)
-	(wire
-		(pts
-			(xy 139.7 71.12) (xy 149.86 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "550ed478-ea7f-4f9f-acbf-943d97decf54")
 	)
 	(wire
 		(pts
@@ -1823,16 +2098,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 60.96) (xy 144.78 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "750ce27e-f9dc-4a8d-be49-0609d8de14d3")
-	)
-	(wire
-		(pts
 			(xy 129.54 57.15) (xy 139.7 57.15)
 		)
 		(stroke
@@ -1863,7 +2128,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 99.06) (xy 149.86 99.06)
+			(xy 139.7 99.06) (xy 153.67 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1893,7 +2158,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 85.09) (xy 153.67 85.09)
+			(xy 139.7 85.09) (xy 149.86 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1983,16 +2248,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 99.06) (xy 153.67 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4f820cf-58e8-44b3-8a63-8a83df2641e0")
-	)
-	(wire
-		(pts
 			(xy 91.44 50.8) (xy 88.9 50.8)
 		)
 		(stroke
@@ -2033,7 +2288,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 46.99) (xy 144.78 60.96)
+			(xy 144.78 46.99) (xy 144.78 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2070,6 +2325,16 @@
 			(type default)
 		)
 		(uuid "f24d176a-730e-4e97-99c1-11e0aac00ac8")
+	)
+	(wire
+		(pts
+			(xy 149.86 113.03) (xy 153.67 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4e98b86-bbd7-487d-b4cd-3f9c89d9df3f")
 	)
 	(wire
 		(pts
@@ -2613,6 +2878,86 @@
 		)
 	)
 	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Switch")
+		(at 167.64 113.03 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c7c3b95-6b9e-4ef8-962d-56ed527eb9d1")
+		(property "Reference" "SW3"
+			(at 167.64 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Switch"
+			(at 167.64 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Stabilizer:Stabilizer_MX_2.00u"
+			(at 167.64 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 167.64 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f8d31094-84c1-46c4-9b94-663d1ea97276")
+		)
+		(pin "2"
+			(uuid "3d3f14fc-8148-4bc8-8eaa-5c8be2a1c6fa")
+		)
+		(instances
+			(project "Numpadv1"
+				(path "/c1696c4b-0d7e-46c1-a994-efc3c3c7bfeb"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
 		(at 127 77.47 0)
 		(unit 1)
@@ -2646,7 +2991,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 127 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -2894,7 +3239,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 137.16 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -2976,7 +3321,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 137.16 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -3224,7 +3569,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 127 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -3274,7 +3619,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Diode")
-		(at 149.86 96.52 0)
+		(at 149.86 110.49 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3285,7 +3630,7 @@
 		(fields_autoplaced yes)
 		(uuid "5205095c-6c37-44c6-a469-93c837c9b2b0")
 		(property "Reference" "D17"
-			(at 149.71 95.454 0)
+			(at 149.71 109.424 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -3298,7 +3643,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 152.4 96.52 90)
+			(at 152.4 110.49 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3308,7 +3653,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
-			(at 149.86 96.52 90)
+			(at 149.86 110.49 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3319,7 +3664,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 96.52 90)
+			(at 149.86 110.49 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3330,7 +3675,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 153.67 96.52 90)
+			(at 153.67 110.49 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3472,7 +3817,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 137.16 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -3521,6 +3866,82 @@
 		)
 	)
 	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Mounting_Hole")
+		(at 127 25.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62a86ace-1542-49db-88c4-194e1a611c2f")
+		(property "Reference" "H1"
+			(at 127 25.4 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.2)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 127 22.225 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Scotto:Standoff_M2x4mm"
+			(at 127 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 127 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Numpadv1"
+				(path "/c1696c4b-0d7e-46c1-a994-efc3c3c7bfeb"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
 		(at 116.84 63.5 0)
 		(unit 1)
@@ -3554,7 +3975,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 116.84 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -3769,6 +4190,162 @@
 		)
 	)
 	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Switch")
+		(at 118.11 125.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "65afa4d3-ab3d-4e70-a87b-17045f7fd9bd")
+		(property "Reference" "SW2"
+			(at 118.11 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Switch"
+			(at 118.11 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Stabilizer:Stabilizer_MX_2.00u"
+			(at 118.11 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 118.11 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7aae71ae-a494-4461-938f-ad9fea866a94")
+		)
+		(pin "2"
+			(uuid "50ed1c40-f1ce-49ac-b8d9-abb3b41e77e3")
+		)
+		(instances
+			(project "Numpadv1"
+				(path "/c1696c4b-0d7e-46c1-a994-efc3c3c7bfeb"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Mounting_Hole")
+		(at 139.7 25.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "66d828bb-5e0f-41be-b084-3dfb29d63e64")
+		(property "Reference" "H2"
+			(at 139.7 25.4 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.2)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 139.7 22.225 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Scotto:Standoff_M2x4mm"
+			(at 139.7 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Numpadv1"
+				(path "/c1696c4b-0d7e-46c1-a994-efc3c3c7bfeb"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
 		(at 147.32 49.53 0)
 		(unit 1)
@@ -3802,7 +4379,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 147.32 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -3852,7 +4429,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 147.32 91.44 180)
+		(at 147.32 105.41 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3863,7 +4440,7 @@
 		(fields_autoplaced yes)
 		(uuid "686605b5-e93d-4b74-b0c2-4843fe9bf9d5")
 		(property "Reference" "S17"
-			(at 147.32 91.44 0)
+			(at 147.32 105.41 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -3875,7 +4452,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 147.32 87.63 0)
+			(at 147.32 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3884,8 +4461,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_2.00u_Vertical_PCB"
-			(at 147.32 91.44 0)
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_2.00u_90deg"
+			(at 147.32 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3896,7 +4473,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 89.662 0)
+			(at 144.78 107.188 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3907,7 +4484,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 147.32 91.44 0)
+			(at 147.32 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3966,7 +4543,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 137.16 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -4048,7 +4625,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 116.84 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -4098,7 +4675,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 116.84 105.41 180)
+		(at 116.84 105.41 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4121,7 +4698,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 116.84 101.6 0)
+			(at 116.84 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4130,7 +4707,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_2.00u_PCB"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_2.00u"
 			(at 116.84 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -4142,7 +4719,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 103.632 0)
+			(at 114.3 107.188 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4263,7 +4840,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 147.32 63.5 180)
+		(at 147.32 77.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4274,7 +4851,7 @@
 		(fields_autoplaced yes)
 		(uuid "93459328-3bcc-486d-b0e8-e0ded4f63fcc")
 		(property "Reference" "S16"
-			(at 147.32 63.5 0)
+			(at 147.32 77.47 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -4286,7 +4863,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 147.32 59.69 0)
+			(at 147.32 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4295,8 +4872,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_2.00u_Vertical_PCB"
-			(at 147.32 63.5 0)
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_2.00u_90deg"
+			(at 147.32 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4307,7 +4884,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 61.722 0)
+			(at 144.78 79.248 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4318,7 +4895,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 147.32 63.5 0)
+			(at 147.32 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4428,7 +5005,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Diode")
-		(at 149.86 68.58 0)
+		(at 149.86 82.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4436,10 +5013,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a51df531-1f41-49b8-9621-2f503118e3a8")
 		(property "Reference" "D16"
-			(at 149.71 67.514 0)
+			(at 149.71 81.484 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -4452,7 +5028,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 152.4 68.58 90)
+			(at 152.4 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4462,7 +5038,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
-			(at 149.86 68.58 90)
+			(at 149.86 82.55 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4473,7 +5049,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 68.58 90)
+			(at 149.86 82.55 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4484,7 +5060,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 153.67 68.58 90)
+			(at 153.67 82.55 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4543,7 +5119,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 127 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -4586,6 +5162,82 @@
 			(project "Numpadv1"
 				(path "/c1696c4b-0d7e-46c1-a994-efc3c3c7bfeb"
 					(reference "S9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Mounting_Hole")
+		(at 152.4 25.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b6f3a1f9-c949-4189-b7b7-69348b4e1b75")
+		(property "Reference" "H3"
+			(at 152.4 25.4 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.2)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 152.4 22.225 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Scotto:Standoff_M2x4mm"
+			(at 152.4 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Numpadv1"
+				(path "/c1696c4b-0d7e-46c1-a994-efc3c3c7bfeb"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -4675,6 +5327,86 @@
 		)
 	)
 	(symbol
+		(lib_id "ScottoKeebs:Placeholder_Switch")
+		(at 167.64 85.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba3a5a06-1094-403e-b0a0-0fa44d28b000")
+		(property "Reference" "SW4"
+			(at 167.64 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Switch"
+			(at 167.64 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_Stabilizer:Stabilizer_MX_2.00u"
+			(at 167.64 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 167.64 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "13b74649-f334-4ffa-a418-a8456e8d6549")
+		)
+		(pin "2"
+			(uuid "e09e1487-1d8b-4d94-8593-17f2219039cb")
+		)
+		(instances
+			(project "Numpadv1"
+				(path "/c1696c4b-0d7e-46c1-a994-efc3c3c7bfeb"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
 		(at 116.84 77.47 0)
 		(unit 1)
@@ -4708,7 +5440,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 116.84 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -4790,7 +5522,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 127 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -4872,7 +5604,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 116.84 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -5429,7 +6161,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_MX:MX_PCB_1.00u"
+		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
 			(at 137.16 63.5 0)
 			(hide yes)
 			(show_name no)
