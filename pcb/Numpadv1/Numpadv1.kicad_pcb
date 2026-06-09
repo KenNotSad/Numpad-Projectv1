@@ -55,7 +55,7 @@
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
-			(usegerberextensions no)
+			(usegerberextensions yes)
 			(usegerberattributes yes)
 			(usegerberadvancedattributes yes)
 			(creategerberjobfile yes)
@@ -83,9 +83,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "../Fabrication/")
 		)
 	)
 	(footprint "ScottoKeebs_Hotswap:Hotswap_MX_1.00u"
@@ -3521,7 +3521,7 @@
 	(footprint "ScottoKeebs_Stabilizer:Stabilizer_MX_2.00u"
 		(layer "F.Cu")
 		(uuid "6c25e16a-341c-42f7-87d1-c8e8c4083c4e")
-		(at 130.81 124.46 90)
+		(at 130.81 124.49175 90)
 		(descr "MX PCB Stabilizer 2.00u 2.25u 2.50u 2.75u")
 		(tags "MX Keyboard Stabilizer 2.00u 2.25u 2.50u 2.75u Cutout")
 		(property "Reference" "SW3"

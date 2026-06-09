@@ -2879,7 +2879,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Switch")
-		(at 167.64 113.03 0)
+		(at 185.42 111.76 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2890,7 +2890,7 @@
 		(fields_autoplaced yes)
 		(uuid "1c7c3b95-6b9e-4ef8-962d-56ed527eb9d1")
 		(property "Reference" "SW3"
-			(at 167.64 105.41 0)
+			(at 185.42 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2900,7 +2900,7 @@
 			)
 		)
 		(property "Value" "Switch"
-			(at 167.64 107.95 0)
+			(at 185.42 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2910,7 +2910,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Stabilizer:Stabilizer_MX_2.00u"
-			(at 167.64 107.95 0)
+			(at 185.42 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2921,7 +2921,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 107.95 0)
+			(at 185.42 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2932,7 +2932,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 167.64 113.03 0)
+			(at 185.42 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4191,7 +4191,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Switch")
-		(at 118.11 125.73 0)
+		(at 121.92 143.51 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4202,7 +4202,7 @@
 		(fields_autoplaced yes)
 		(uuid "65afa4d3-ab3d-4e70-a87b-17045f7fd9bd")
 		(property "Reference" "SW2"
-			(at 118.11 118.11 0)
+			(at 121.92 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4212,7 +4212,7 @@
 			)
 		)
 		(property "Value" "Switch"
-			(at 118.11 120.65 0)
+			(at 121.92 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4222,7 +4222,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Stabilizer:Stabilizer_MX_2.00u"
-			(at 118.11 120.65 0)
+			(at 121.92 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4233,7 +4233,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 120.65 0)
+			(at 121.92 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4244,7 +4244,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 118.11 125.73 0)
+			(at 121.92 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5328,7 +5328,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Switch")
-		(at 167.64 85.09 0)
+		(at 185.42 83.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5339,7 +5339,7 @@
 		(fields_autoplaced yes)
 		(uuid "ba3a5a06-1094-403e-b0a0-0fa44d28b000")
 		(property "Reference" "SW4"
-			(at 167.64 77.47 0)
+			(at 185.42 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5349,7 +5349,7 @@
 			)
 		)
 		(property "Value" "Switch"
-			(at 167.64 80.01 0)
+			(at 185.42 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5359,7 +5359,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Stabilizer:Stabilizer_MX_2.00u"
-			(at 167.64 80.01 0)
+			(at 185.42 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5370,7 +5370,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 80.01 0)
+			(at 185.42 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5381,7 +5381,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 167.64 85.09 0)
+			(at 185.42 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
