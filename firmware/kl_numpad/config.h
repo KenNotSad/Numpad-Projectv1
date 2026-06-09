@@ -1,0 +1,19 @@
+// Copyright 2022 Stefan Kerkmann
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+#pragma once
+
+#define RP2040_BOOTLOADER_DOUBLE_TAP_RESET
+#define RP2040_BOOTLOADER_DOUBLE_TAP_RESET_LED GP25
+#define RP2040_BOOTLOADER_DOUBLE_TAP_RESET_TIMEOUT 500U
+
+/* Encoder Input */
+#define ENCODER_BTN_PIN GP13
+#define ENCODER_DIRECTION_FLIP
+
+/* OLED */
+#define OLED_DISPLAY_128X32 
+
+#define I2C_DRIVER I2CD1
+#define I2C1_SDA_PIN GP11 
+#define I2C1_SCL_PIN GP12
