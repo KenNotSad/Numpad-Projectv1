@@ -3,13 +3,17 @@
 This project is an RP2040-powered gasket-mount numpad with a rotary encoder and OLED display, intended to help me learn introductory PCB design and QMK firmware. 
 
 ## Mechanical
-Exploded view: 
-
+<p align="center">
+  <img src="images/ExplodedView.png" alt="Exploded View" width="500">
+</p>
 The top case, bottom case, and plate were designed in SolidWorks and 3D-printed. 
 
 
 ## Electrical
-
+<p align="center">
+  <img src="images/Schematic.png" alt="Schematic" height="300">
+  <img src="images/PCB.png" alt="PCB" height="300">
+</p>
 Schematic and PCB were designed in KiCad and sent to be manufactured by JLCPCB. 
 
 
