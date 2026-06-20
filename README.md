@@ -1,6 +1,9 @@
 # Numpad-Projectv1
 
 This project is an RP2040-powered gasket-mount numpad with a rotary encoder and OLED display, intended to help me learn introductory PCB design and QMK firmware. 
+<p align="center">
+  <img src="images/RealNumpad.jpg" alt="Exploded View" width="500">
+</p>
 
 ## Mechanical
 <p align="center">
