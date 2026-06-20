@@ -17,7 +17,7 @@ The top case, bottom case, and plate were designed in SolidWorks and 3D-printed.
   <img src="images/Schematic.png" alt="Schematic" height="300">
   <img src="images/PCB.png" alt="PCB" height="300">
 </p>
-Schematic and PCB were designed in KiCad and sent to be manufactured by JLCPCB. 
+Schematic and PCB were designed in KiCad and sent to be manufactured by JLCPCB. NOTE: The KiCad files rely on the ScottoKeebs KiCad Library. 
 
 
 ## Assembly
