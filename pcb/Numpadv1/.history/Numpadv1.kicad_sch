@@ -1828,16 +1828,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 67.31) (xy 73.66 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "006e3b08-f355-42bb-b33d-27d6efe278ec")
-	)
-	(wire
-		(pts
 			(xy 139.7 113.03) (xy 149.86 113.03)
 		)
 		(stroke
@@ -1895,16 +1885,6 @@
 			(type default)
 		)
 		(uuid "18737ae8-deaa-4d85-8b11-396d692d778c")
-	)
-	(wire
-		(pts
-			(xy 81.28 67.31) (xy 81.28 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "227bdf7b-ad12-4115-b99d-a97dc7dee0b4")
 	)
 	(wire
 		(pts
@@ -1995,16 +1975,6 @@
 			(type default)
 		)
 		(uuid "48451529-89f7-48d1-b3ef-4ea0d39cbe5d")
-	)
-	(wire
-		(pts
-			(xy 78.74 67.31) (xy 78.74 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d5daec4-6837-4534-bbf0-8a0f1d2f8d6c")
 	)
 	(wire
 		(pts
@@ -2148,16 +2118,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 67.31) (xy 71.12 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97e8b883-bfec-4115-8691-993c6b833a72")
-	)
-	(wire
-		(pts
 			(xy 139.7 85.09) (xy 149.86 85.09)
 		)
 		(stroke
@@ -2185,16 +2145,6 @@
 			(type default)
 		)
 		(uuid "a2ecf6e9-c870-4f76-b4a2-fe30c1415527")
-	)
-	(wire
-		(pts
-			(xy 76.2 67.31) (xy 76.2 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3b1a931-8406-4e4e-97f9-29064b4e013b")
 	)
 	(wire
 		(pts
@@ -2367,7 +2317,7 @@
 		(uuid "fdc3dd64-f23c-4480-918f-e6ab6c6455e6")
 	)
 	(label "I2C0 SDA"
-		(at 76.2 67.31 270)
+		(at 73.66 63.5 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2437,7 +2387,7 @@
 		(uuid "51f35569-5653-40ae-85d5-75e77db055b1")
 	)
 	(label "GP10"
-		(at 81.28 67.31 270)
+		(at 78.74 63.5 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2527,7 +2477,7 @@
 		(uuid "9c97f064-5bb4-4de2-995a-e007c2803a08")
 	)
 	(label "GP11"
-		(at 78.74 67.31 270)
+		(at 76.2 63.5 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2577,7 +2527,7 @@
 		(uuid "b6c5b40e-93b5-408e-8e4e-4dee17dd85d0")
 	)
 	(label "GP14"
-		(at 71.12 67.31 270)
+		(at 63.5 58.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2617,7 +2567,7 @@
 		(uuid "c41ce254-addf-4401-b8d7-134dc2828506")
 	)
 	(label "I2C0 SCL"
-		(at 73.66 67.31 270)
+		(at 71.12 63.5 270)
 		(effects
 			(font
 				(size 1.27 1.27)
